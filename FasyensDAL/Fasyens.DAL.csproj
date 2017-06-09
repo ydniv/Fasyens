@@ -53,6 +53,14 @@
     <Compile Include="Migrations\201706051824214_testingpertamasendiri.Designer.cs">
       <DependentUpon>201706051824214_testingpertamasendiri.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706081706242_test.cs" />
+    <Compile Include="Migrations\201706081706242_test.Designer.cs">
+      <DependentUpon>201706081706242_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706081722103_testtt.cs" />
+    <Compile Include="Migrations\201706081722103_testtt.Designer.cs">
+      <DependentUpon>201706081722103_testtt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepoBase.cs" />
@@ -74,6 +82,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201706051824214_testingpertamasendiri.resx">
       <DependentUpon>201706051824214_testingpertamasendiri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706081706242_test.resx">
+      <DependentUpon>201706081706242_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706081722103_testtt.resx">
+      <DependentUpon>201706081722103_testtt.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

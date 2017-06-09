@@ -19,7 +19,7 @@ namespace Fasyens.DAL
     }
     public class fasyenContext : DbContext
     {
-        public fasyenContext() : base("fasyens")
+        public fasyenContext() : base("Fashion")
         {
 
         }
@@ -46,7 +46,7 @@ namespace Fasyens.DAL
         }
 
         public DbSet<Fasyen> Fasyen { get; set; }
-        
+        public DbSet<Fasyen> Categoty { get; set; }       
         //buat bikin databasenya, fasyen itu sebagai nama tablenya
         // kalo mau migrat database pertama ke web config yang di project utama, terus di ubah connection stringnya ke sql masing2 komputer.
         //buka tools, nuget package manager poloj yang console

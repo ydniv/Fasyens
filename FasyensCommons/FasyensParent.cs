@@ -9,9 +9,12 @@ namespace Fasyens.Commons
     public class FasyensParent
     {
         public long Id { get; set; } = 0;
-        public string CreatedBy { get; set; } = "";
-        public DateTime CreatedDate { get; set; } = DateTime.Today;
-        public string UpdatedBy { get; set; } = "";
-        public DateTime UpdatedDate { get; set; } = DateTime.Today;
+        public string Name { get; set; } = "";
+        public string ProductDescription { get; set; } = "";
+        public Decimal PriceBeforeDiscount { get; set; } = 0;
+        public Decimal PriceAfterDiscount { get; set; } = 0;
+        public int seen { get; set; } = 0;
+        public long CategoryId { get; set; } = 0;
+        public byte[] ImageURL { get; set; }
     }
 }
